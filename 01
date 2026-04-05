@@ -1,0 +1,12 @@
+A. DASAR TEORI
+Proses merupakan hasil dari eksekusi program / aplikasi yang bersifat executable. Proses dikelola oleh sistem operasi dan terdiri atas 
+executable code, data, resources, sertainformasi tentang state (stack dan heap). Setiap aplikasi yang dijalankan akan menjadi proses.
+
+B. PROSES PADA SATU NODE
+Pada satu node, semua akan berada dalam kendali sistem operasi: eksekusi menjadi proses, alokasi resources, pengelolaan proses, serta 
+komunikasi antar proses. Hal ini bersifat transparan terhadap pengguna (artinya pengguna tidak perlu melihat, tapi di latar belakang 
+proses ini dikelola oleh sistem operasi).
+Tugas
+   1. Tampilkan berbagai proses yang ada pada komputer yang anda gunakan sesuai dengan sistem operasi yang anda gunakan.
+      
+
