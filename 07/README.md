@@ -1,5 +1,41 @@
 ## Modul 7 Cloud Computing (di Windows)
 
+### Pengantar
+Cloud Computing menggunakan pendekatan XaaS atau sering juga disebut sebagainEverything as a Service. Dengan menggunakan pendekatan ini,provider dari Cloud Computing menyediakan berbagai sumber daya komputasi dan konsumen mendapatkan sumber daya tersebut dalam bentuk layanan. Meskipun saat ini ada banyak XaaS tetapim secara umum biasanya dibagi menjadi 3:
+
+1. SaaS: Software as a Service
+2. PaaS: Platform as a Service
+3. IaaS: Infrastructure as a Service
+
+### Tugas
+1. Carilah berbagai contoh vendor/komunitas SaaS, PaaS, dan IaaS masing-masing 1 saja.
+3. Uraikan apa yang menjadi service dari berbagai vendor untuk berbagai kategori XaaS tersebut.
+4. Jelaskan secara umum arsitektur dari XaaS tersebut dalam bentuk visualisasi gambar.
+#### Jawaban nomor 1:
+1. SaaS : *Google Workspace* --> SaaS menyediakan aplikasi siap pakai melalui internet, misalnya Gmail, Google Docs, dan Google Drive.
+2. PaaS (Platform as a Service): *Google App Engine* --> PaaS menyediakan platform untuk developer membuat dan menjalankan aplikasi tanpa harus mengelola server secara langsung.
+3. IaaS (Infrastructure as a Service): *Amazon Web Service (AWS) EC2* ---> IaaS menyediakan infrastruktur seperti server virtual, jaringan, dan penyimpanan berbasis cloud.
+#### Jawaban nomor 2:
+| Kategori                               | Vendor                                                                         | Service yang Disediakan                                                                                                                                                                                                                                                                                                        |
+| -------------------------------------- | ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **SaaS (Software as a Service)**       | [Google Workspace](https://workspace.google.com?utm_source=chatgpt.com)        | Menyediakan aplikasi berbasis cloud yang siap digunakan melalui internet, seperti Gmail untuk email, Google Docs untuk pengolahan dokumen, Google Sheets untuk spreadsheet, Google Meet untuk video conference, dan Google Drive untuk penyimpanan file online. Pengguna tidak perlu menginstal atau mengelola server sendiri. |
+| **PaaS (Platform as a Service)**       | [Google App Engine](https://cloud.google.com/appengine?utm_source=chatgpt.com) | Menyediakan platform dan lingkungan pengembangan aplikasi berbasis cloud. Developer dapat membuat, menguji, menjalankan, dan mengelola aplikasi tanpa harus mengatur sistem operasi, server, atau infrastruktur jaringan secara manual. Mendukung berbagai bahasa pemrograman seperti Python, Java, dan Node.js.               |
+| **IaaS (Infrastructure as a Service)** | [Amazon EC2 (AWS)](https://aws.amazon.com/ec2/?utm_source=chatgpt.com)         | Menyediakan infrastruktur virtual berupa server cloud (virtual machine), penyimpanan data, jaringan, firewall, dan resource komputasi lainnya. Pengguna dapat mengatur spesifikasi server sesuai kebutuhan dan memiliki kontrol penuh terhadap sistem operasi maupun aplikasi yang dijalankan.                                 |
+#### Jawaban nomor 3:
+<img width="1536" height="1024" alt="gambar" src="https://github.com/user-attachments/assets/72139936-03d8-4378-b00f-f3acd449ac19" />
+
+Salah satu hal yang membentuk layanan-layanan tersebut adalah **Containerized App**.
+Containerized App (berikutnya akan disingkat dengan **CA**) merupakan aplikasi yang
+dimaksudkan untuk dijalankan oleh container (docker, podman, …). Pada contoh kali ini, kita
+akan membangun aplikasi blog yang merupakan tutorial dari Flask menjadi CA.
+
+Tutorial dari Flask bisa dilihat di URL:
+[https://flask.palletsprojects.com/en/stable/tutorial/](https://flask.palletsprojects.com/en/stable/tutorial/)
+
+Source code untuk tutorial bisa dilihat di:
+[https://github.com/pallets/flask/tree/3.1.3/examples/tutorial](https://github.com/pallets/flask/tree/3.1.3/examples/tutorial)
+
+Jika menggunakan git, kerjakan berikut ini. Asumsikan direktori kerja ada di $HOME/sr
 ### Langkah 1: Clone Repository Flask
 Buka PowerShell atau Windows Terminal, lalu jalankan perintah berikut satu per satu:
 ```bash
