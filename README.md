@@ -1,7 +1,7 @@
 # prak-dis-dec
 Repositori untuk laporan PRAKTIKUM SISTEM TERDISTRIBUSI DAN TERDESENTRALISASI
 ## Identitas Mahasiswa
-| | |
+| | **Penulis** |
 |---|---|
 | **Nama** | Yuki Nagano Mondjompi |
 | **NIM** | 235410045 |
