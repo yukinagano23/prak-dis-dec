@@ -114,6 +114,7 @@ Verifikasi:
 yugabyted --help
 ```
 <img width="1185" height="589" alt="image" src="https://github.com/user-attachments/assets/28e959fd-c8c7-48ea-bb23-ef9f141e413f" />
+
 Agar tidak perlu source manual tiap sesi, tambahkan ke ~/.bashrc:
 ```bash
 echo 'source ~/env/bash/dbms/yugabytedb' >> ~/.bashrc
